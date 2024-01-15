@@ -1,0 +1,35 @@
+.navContainer {
+  display: flex;
+  justify-content: space-around;
+  background-color: antiquewhite;
+  color: #a52a2a;
+  padding: 10px; /* Add padding for better visibility, adjust as needed */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Adjust the z-index as needed */
+}
+
+/* Home.css */
+.home-container {
+  margin-top: 100px;  /* Ajusta la cantidad de espacio superior según sea necesario */
+  justify-content: center;
+}
+
+/* Contact.css */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
